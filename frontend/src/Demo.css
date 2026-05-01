@@ -1,0 +1,165 @@
+.footer {
+  background: #1a1a1a;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 40px;
+  min-height: 70px;
+
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.footer-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-icon {
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.footer-icon:hover {
+  color: #7fb0e8;
+  transform: translateY(-2px);
+}
+
+
+.footer-copy {
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+}
+
+.demo-benefit-card {
+  flex: 1 1 200px;        
+  max-width: 240px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  
+  .demo-main {
+    padding: 32px 32px !important;
+  }
+
+  
+  .demo-benefits-row {
+    gap: 12px !important;
+  }
+  .demo-benefit-card {
+    flex: 1 1 calc(50% - 12px) !important;
+    max-width: calc(50% - 12px) !important;
+  }
+
+  
+  .demo-mode-row {
+    flex-direction: row !important;    
+    align-items: center !important;
+  }
+  .demo-mode-row button {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+    .demo-header {
+        padding: 0 16px !important;
+        height: 56px !important;
+    }
+    .demo-logo {
+        font-size: 18px !important;
+    }
+
+   
+    .demo-main {
+        padding: 24px 16px !important;
+    }
+
+    
+    .demo-benefit-card {
+      flex: 1 1 calc(50% - 16px);
+      max-width: calc(50% - 16px);
+      box-sizing: border-box;
+    }
+
+    
+    .demo-mode-label {
+        font-size: 1.3rem !important;
+    }
+
+    .demo-results-row {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+    }
+
+    .demo-mode-row button,
+    .demo-results-row button {
+        max-width: 100% !important;
+        width: auto !important;
+        padding: 10px 20px !important;
+        font-size: 0.9rem !important;
+    }
+
+    
+    .demo-main {
+        padding: 24px 16px !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    
+    .demo-view-box,
+    .demo-results-box {
+        box-sizing: border-box !important;
+        width: 100% !important;
+  }
+
+    .demo-mode-row {
+      flex-direction: row !important;    
+      align-items: stretch !important;
+      padding: 0 !important;
+      gap: 12px !important;
+    }
+
+    .demo-mode-row button {
+      max-width: 100% !important;
+      width: 100% !important;
+      box-sizing: border-box !important;
+      font-size: 0.82rem !important;     
+      padding: 10px 12px !important;
+    }
+ }

@@ -5,7 +5,7 @@ model = YOLO(r"C:\guava_yolo\runs\detect\train6\weights\best.pt")
 
 
 results = model(
-    r"C:\guava_yolo\images_teste\3.png",
+    r"C:\guava_yolo\images_teste\5.png",
     conf=0.01,
     save=True
 )
