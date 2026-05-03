@@ -41,7 +41,7 @@ Interface web para visualizar o algoritmo YOLO aplicado à detecção de defeito
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/BiancaCancian/guava-vision.git
+git clone https://github.com/BiancaCancian/GuavaVision.AI.git
 cd guava-vision
 ```
 
