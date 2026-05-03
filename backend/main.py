@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from ultralytics import YOLO
 
-MODEL_PATH = r"C:\guava_yolo\runs\detect\train6\weights\best.pt"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "best.pt")
 model = YOLO(MODEL_PATH)
 
 app = FastAPI(title="GuavaVision API")
