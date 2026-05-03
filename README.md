@@ -1,7 +1,7 @@
 <div align="center">
 
-![GuavaVision Home](./screenshots/home.png)
-![GuavaVision Demo](./screenshots/demo.png)
+
+| ![Home](./screenshots/home.png) | ![Demo](./screenshots/demo.png) |
 
 # GuavaVision.AI
 
