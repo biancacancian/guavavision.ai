@@ -1,6 +1,7 @@
 <div align="center">
 
-
+| | |
+|---|---|
 | ![Home](./screenshots/home.png) | ![Demo](./screenshots/demo.png) |
 
 # GuavaVision.AI
