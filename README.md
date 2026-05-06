@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| ![Home](./screenshots/home.png) | ![Demo](./screenshots/demo.png) |
+| ![Home](https://github.com/user-attachments/assets/09acb416-0fa9-43e5-a90f-7c7e20f3081f) | ![Demo](./screenshots/demo.png) |
 
 # GuavaVision.AI
 
