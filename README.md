@@ -10,12 +10,13 @@
 
 Interface web para visualizar o algoritmo YOLO aplicado à detecção de defeitos em goiabas em tempo real.
 
+https://vision-ai-blush-delta.vercel.app/
 
 </div>
 
 ---
 
-> **Aviso:** Este projeto é uma demonstração experimental do algoritmo YOLOv8 aplicado à classificação de goiabas. Os resultados estão sujeitos a variações e erros nas detecções, pois o sistema ainda está em fase de desenvolvimento.
+> **Aviso:** Este projeto é uma demonstração experimental do algoritmo YOLOv8 aplicado à classificação de goiabas. Os resultados estão sujeitos a variações e erros nas detecções.
 
 ---
 
